@@ -1,5 +1,6 @@
 
 #include <LiquidCrystal.h>
+#include <SoftwareSerial.h>
 SoftwareSerial gsm(11,10);
 LiquidCrystal lcd(7,A1,A2,A3,A4,A5);
 
